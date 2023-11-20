@@ -7,5 +7,5 @@ from django.http import HttpResponse
 import datetime
 
 
-def submode(request):
-    return HttpResponse("Hello, I am submodule!")
+def SubmoduleView(request):
+    return HttpResponse({'msg': "remote submodule"})
