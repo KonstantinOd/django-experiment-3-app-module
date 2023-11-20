@@ -8,4 +8,4 @@ import datetime
 
 
 def SubmoduleView(request):
-    return HttpResponse({'msg': "remote submodule"})
+    return HttpResponse("I am submodule")
